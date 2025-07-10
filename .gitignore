@@ -1,0 +1,62 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+farmstack/
+
+# Logs and debug
+*.log
+*.pot
+*.mo
+*.bak
+*.tmp
+
+# Environment variables
+.env
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS/system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Unit test / coverage
+.coverage
+.tox/
+.nox/
+.cache/
+coverage.xml
+htmlcov/
+
+# mypy / pyright / pyre
+.mypy_cache/
+.pyright/
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Docker
+*.container
+*.log
+docker-compose.override.yml
+
+# FastAPI specific (if using __init__.py paths)
+*.db
